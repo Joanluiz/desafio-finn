@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+/**/
+
+body{
+    background-color: #2cb3f3;
+}
+
+header{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+
+/**/
+
+.cabeca{
+    background-color: #ffffff;
+    width: 880px;
+    height: 616px;
+    position: relative;
+    left: 345px;
+    border-radius:100px 100px 0 0;
+}
+
+.rosto{
+    background-color: #ffe1c9;
+    width: 692px;
+    height: 487px;
+    border-radius: 90%;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+.olho-direito{
+    background-color: black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top:100px;
+    right:140px ;
+
+}
+.olho-esquerdo{
+    background-color: black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top:100px;
+    right:480px ;
+}
+
+/**/
+
+form{
+    position: absolute;
+    top:270px;
+    right: 50px;
+    width: 450px ;
+}
+
+input{
+    font-size: 27px;
+    box-shadow: 2px 3px 3px 3px ;
+}
